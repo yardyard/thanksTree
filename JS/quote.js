@@ -45,8 +45,8 @@ const quotes = [
 
 
   // HTML의 quote 아이디를 가진 span의 첫번째와 마지막 자식을 연결
-  const quote = document.querySelector("#quote span:first-child");
-  const author = document.querySelector("#quote span:last-child");
+  const quote = document.querySelector("#quote div:first-child");
+  const author = document.querySelector("#quote div:last-child");
 
   // quotes 배열에 있는 값들(0부터 9번 인덱스까지)을 랜덤하게 변수에 저장함.
   // 또한 quotes.length를 곱함으로서 명언의 길이에 맞게 자동으로 랜덤값 조정됌.
