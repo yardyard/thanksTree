@@ -1,4 +1,6 @@
-
+.hidden{
+    display: none;
+}
 
 * {
     box-sizing: border-box;
@@ -39,7 +41,7 @@ img {
     
 #loginbtn{
     position: relative;
-    left : 440px;
+    left: 350px;
     margin-top: 30px;
     background-color: rgb(122, 80, 27);
     color: rgb(223, 223, 223);
@@ -51,6 +53,23 @@ img {
         margin-left: 5px;
         margin-top: 5px;
         box-shadow: none;
+    }
+
+#rules{
+    text-align: center;
+    margin-top: 50px;
+}
+    #rules input:first-child{
+        background-color: rgb(122, 80, 27);
+        color: rgb(223, 223, 223);
+        border: none;
+        box-shadow: 1px 1px 1px rgb(88, 42, 12);
+    }
+    #rules button:last-child{
+        background-color: rgb(122, 80, 27);
+        color: rgb(223, 223, 223);
+        border: none;
+        box-shadow: 1px 1px 1px rgb(88, 42, 12);
     }
 
 #clock{
